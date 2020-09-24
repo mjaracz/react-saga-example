@@ -1,0 +1,31 @@
+.tasks {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 38vmax;
+}
+
+.tasks--circular {
+  margin-top: 180px;
+}
+.tasks--circular svg {
+  color: #61dafb;
+}
+
+.tasks__addTaskIcon svg {
+  color: #61dafb;
+  cursor: pointer;
+}
+
+.MuiListSubheader-root.tasks__subheader {
+  color: #61dafb;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@media (max-width: 1320px) {
+  .tasks {
+    width: 100vmax;
+  }
+}

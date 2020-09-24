@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should match the snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="home"
+    >
+      <header
+        class="home__header"
+      >
+        <img
+          alt="logo"
+          class="header__logo"
+          src="logo.svg"
+        />
+        <p>
+          Example of React with Redux-Saga
+        </p>
+        <a
+          class="home__link"
+          href="/tasks"
+          rel="noopener noreferrer"
+        >
+          Go to Tasks Page
+        </a>
+      </header>
+    </div>
+  </div>
+</body>
+`;

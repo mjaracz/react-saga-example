@@ -1,0 +1,50 @@
+.tasks__item {
+  max-width: 38vmax;
+}
+
+.tasks__item svg {
+  color: #61dafb;
+}
+
+.tasks__item > .MuiSvgIcon-root {
+  cursor: pointer;
+}
+
+.tasks__item--expended {
+  color: #61dafb;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.item__text {
+  color: white;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.item__expend {
+  cursor: pointer;
+  width: 135px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.expend__text {
+  color: white;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.item__deleteIcon {
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.MuiListItemIcon-root svg {
+  color: #61dafb;
+}
+
+@media (max-width: 1320px) {
+  .tasks__item {
+    max-width: 100vmax;
+    margin: 15px;
+  }
+}

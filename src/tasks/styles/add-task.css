@@ -1,0 +1,44 @@
+.tasks__modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal__content {
+  background-color: #ffffff;
+  padding: 50px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.modal__content svg {
+  color: #282c34;
+  font-size: 50px;
+}
+.content__textField {
+  outline-color: #282c34;
+}
+
+.content__textField {
+  margin: 20px 0 !important;
+}
+label.Mui-focused {
+  color: #282c34 !important;
+}
+label {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace !important;
+  letter-spacing: .3px;
+}
+.MuiInput-underline:after {
+  border-bottom: 2px solid #61dafb !important;
+}
+.MuiInput-underline.Mui-error:after {
+  border-bottom-color: #f44336 !important;
+}
+.MuiFormHelperText-root {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace !important;
+  letter-spacing: .3px;
+}
